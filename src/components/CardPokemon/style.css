@@ -1,0 +1,122 @@
+.cardPokemon {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.cardPokemon_inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+.cardPokemon:active .cardPokemon_inner {
+    transform: rotateY(180deg);
+}
+
+.cardPokemon:active img {
+    transform: rotateY(180deg) translateX(50%);
+    transition-delay: 0.3s;
+}
+
+.cardPokemon_front, .cardPokemon_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.cardPokemon_front {
+    background: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: #323232;
+}
+
+.cardPokemon img {
+    position: absolute;
+    z-index: 3;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 200px;
+}
+
+.cardPokemon_front .cardPokemon_detail {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPokemon_detail h3 {
+    margin-bottom: 10px;
+}
+
+.cardPokemon_info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cardPokemon_info p {
+    width: 33%;
+}
+
+.containButton {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.containButton .buttonPokemon {
+    width: 120px;
+    padding: 10px;
+    background: #323232;
+    border-radius: 15px;
+    color: #FFF;
+    text-align: center;
+    border: none;
+}
+
+.containButton .buttonPokemon:hover {
+    cursor: pointer;
+}
+
+.cardPokemon_back {
+    background: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    color: #323232;
+    z-index: 1;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cardPokemon_back .possession {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.possession p {
+    margin-bottom: 10px;
+}
