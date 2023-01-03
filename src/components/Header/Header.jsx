@@ -84,7 +84,7 @@ const Header = () => {
                         </div>
                     </li>
                     <li className="list"> 
-                        <NavLink to="/Login" className="SignOut">
+                        <NavLink to="/" className="SignOut">
                             <span class="title"> Déconnexion </span>
                             <span class="icon"> <FontAwesomeIcon icon={faSignOut} /> </span>
                         </NavLink>
