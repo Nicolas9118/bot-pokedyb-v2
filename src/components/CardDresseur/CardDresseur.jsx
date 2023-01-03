@@ -10,7 +10,7 @@ import { faEthereum } from "@fortawesome/free-brands-svg-icons";
 
 const CardDresseur = () => {
     return (
-        <NavLink to="/" className="cardDresseur">
+        <NavLink to="/Home" className="cardDresseur">
             <img src={Dresseur} alt="" />
             
             <div className="cardDresseur_detail">

@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import BgLogin from "../../assets/Bg_Login.jpg"
 import ProfChen from "../../assets/prof_chen.png"
+import Profil from "../../assets/Poke_Dyb.png"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
@@ -18,6 +19,7 @@ const Login = () => {
                 <div className="text">
                     <h3> Tout d'abord, quel est ton nom ? </h3>
                     <NavLink to="/Home" className="connect"> <FontAwesomeIcon icon={faDiscord} /> </NavLink>
+                    <img src={Profil} alt="" />
                 </div>
             </div>
         </div>

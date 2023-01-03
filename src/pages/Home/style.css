@@ -1,6 +1,36 @@
 .main {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+    width: 95%;
+    background: #323232;
+}
+.team div {
+    width: 13%;
+}
+.team img {
+    width: 100%;
+}
+
+.containerButton {
+    width: 95%;
+    height: 17%;
+    background: #E2E2E2;
+    border-radius: 10px;
+    color: #323232;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
