@@ -1,10 +1,19 @@
 import React from "react";
-import Bag from "../../components/Bag/Bag";
 
 import "./style.css";
 import BgHome from "../../assets/bg_prairie.jpg"
+import Pokemon1 from "../../assets/dracaufeu.png"
+import Pokemon2 from "../../assets/evoli.png"
+import Pokemon3 from "../../assets/florizare.png"
+import Pokemon4 from "../../assets/pikachu.png"
+import Pokemon5 from "../../assets/tortank.png"
+import Pokemon6 from "../../assets/dracolosse.png"
+import Dresseur from "../../assets/dresseur.png"
+
+import Bag from "../../components/Bag/Bag";
 import Resources from "../../components/Resources/Resources";
 import Profil from "../../components/Profil/Profil";
+import ButtonReward from "../../components/ButtonReward/ButtonReward";
 
 const Home = () => {
     return (
@@ -13,6 +22,22 @@ const Home = () => {
             <Profil />
             <Resources />
             <Bag />
+
+            <div className="team">
+                <div> <img src={Pokemon1} alt="" /> </div>
+                <div> <img src={Pokemon2} alt="" /> </div>
+                <div> <img src={Pokemon3} alt="" /> </div>
+                <div> <img src={Dresseur} alt="" />  </div>
+                <div> <img src={Pokemon4} alt="" /></div>
+                <div> <img src={Pokemon5} alt="" /> </div>
+                <div> <img src={Pokemon6} alt="" /> </div>
+            </div>
+
+            <div className="buttonContainer">
+                <ButtonReward name="Récompense Spéciale" />
+                <ButtonReward name="Récompense Journalière" />
+                <ButtonReward name="Récompense Hebdomadaire" />
+            </div>
         </div>
     )
 }

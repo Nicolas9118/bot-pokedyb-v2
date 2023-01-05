@@ -1,13 +1,11 @@
-.login {
-    width: 100%;
-    max-height: 100vh;
-    position: relative;
-}
-
 .login .background {
     object-fit: cover;
     width: 100%;
     height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .login .entry {
@@ -19,9 +17,9 @@
 
 .login .welcome {
     position: absolute;
-    left: 43.6%;
-    top: 43.5%;
-    transform: translate(50% 50%); 
+    left: 50%;
+    top: 50%;
+    transform: translate(-48%, -23%);
     width: 255px;
     height: 255px;
     border-radius: 50%;
@@ -36,4 +34,17 @@
     justify-content: center;
     color: blue;
     font-size: 32px;
+}
+
+/*  ----  Responsive SmartPhone  ----  */
+@media screen and (max-width: 767px) {
+    .login .entry {
+        width: 90%;
+    }
+
+    .login .welcome {
+        width: 110px;
+        height: 110px;
+        font-size: 24px;
+    }
 }
