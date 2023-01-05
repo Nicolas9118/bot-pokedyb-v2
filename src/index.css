@@ -12,4 +12,9 @@ body{
     min-height: 100vh;
     max-height: 100vh;
     background: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+body ul {
+    list-style: none;
 }

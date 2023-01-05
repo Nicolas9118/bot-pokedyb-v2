@@ -1,0 +1,167 @@
+[
+    {
+        "id": "p1",
+        "name": "Anargyres",
+        "cover": "/images/dresseur.png",
+        "number": "288",
+        "dustTotal": "37813",
+        "gold": "0",
+        "dust": "136",
+        "ticketTower": "0",
+        "ticketSafari": "0"
+    },
+    {
+        "id": "p2",
+        "name": "Susu",
+        "cover": "/images/dresseur.png",
+        "number": "277",
+        "dustTotal": "41599",
+        "gold": "1000",
+        "dust": "562",
+        "ticketTower": "16",
+        "ticketSafari": "0"
+    },
+    {
+        "id": "p3",
+        "name": "Skrull",
+        "cover": "/images/dresseur.png",
+        "number": "267",
+        "dustTotal": "38295",
+        "gold": "0",
+        "dust": "196",
+        "ticketTower": "4",
+        "ticketSafari": "2"
+    },
+    {
+        "id": "p4",
+        "name": "Grimmouzzz",
+        "cover": "/images/dresseur.png",
+        "number": "267",
+        "dustTotal": "38689",
+        "gold": "0",
+        "dust": "341",
+        "ticketTower": "0",
+        "ticketSafari": "2"
+    },
+    {
+        "id": "p5",
+        "name": "Equinoxuu",
+        "cover": "/images/dresseur.png",
+        "number": "264",
+        "dustTotal": "41336",
+        "gold": "0",
+        "dust": "3089",
+        "ticketTower": "7",
+        "ticketSafari": "2"
+    },
+    {
+        "id": "p6",
+        "name": "NiShi",
+        "cover": "/images/dresseur.png",
+        "number": "260",
+        "dustTotal": "37924",
+        "gold": "5000",
+        "dust": "671",
+        "ticketTower": "8",
+        "ticketSafari": "0"
+    },
+    {
+        "id": "p7",
+        "name": "Kira91",
+        "cover": "/images/dresseur.png",
+        "number": "255",
+        "dustTotal": "39983",
+        "gold": "1500",
+        "dust": "6266",
+        "ticketTower": "2",
+        "ticketSafari": "4"
+    },
+    {
+        "id": "p8",
+        "name": "HypnoZ",
+        "cover": "/images/dresseur.png",
+        "number": "253",
+        "dustTotal": "37855",
+        "gold": "0",
+        "dust": "801",
+        "ticketTower": "12",
+        "ticketSafari": "2"
+    },
+    {
+        "id": "p9",
+        "name": "Sashyro",
+        "cover": "/images/dresseur.png",
+        "number": "245",
+        "dustTotal": "37425",
+        "gold": "0",
+        "dust": "1096",
+        "ticketTower": "7",
+        "ticketSafari": "2"
+    },
+    {
+        "id": "p10",
+        "name": "Kurax",
+        "cover": "/images/dresseur.png",
+        "number": "245",
+        "dustTotal": "40757",
+        "gold": "0",
+        "dust": "2994",
+        "ticketTower": "16",
+        "ticketSafari": "0"
+    },
+    {
+        "id": "p11",
+        "name": "Palmypède",
+        "cover": "/images/dresseur.png",
+        "number": "242",
+        "dustTotal": "36566",
+        "gold": "0",
+        "dust": "1208",
+        "ticketTower": "0",
+        "ticketSafari": "2"
+    },
+    {
+        "id": "p12",
+        "name": "Naiiade",
+        "cover": "/images/dresseur.png",
+        "number": "238",
+        "dustTotal": "36725",
+        "gold": "10000",
+        "dust": "4546",
+        "ticketTower": "6",
+        "ticketSafari": "4"
+    },
+    {
+        "id": "p13",
+        "name": "Rokeez",
+        "cover": "/images/dresseur.png",
+        "number": "224",
+        "dustTotal": "39937",
+        "gold": "5500",
+        "dust": "12360",
+        "ticketTower": "2",
+        "ticketSafari": "6"
+    },
+    {
+        "id": "p14",
+        "name": "Silverlord",
+        "cover": "/images/dresseur.png",
+        "number": "197",
+        "dustTotal": "31988",
+        "gold": "35000",
+        "dust": "2834",
+        "ticketTower": "44",
+        "ticketSafari": "2"
+    },
+    {
+        "id": "p15",
+        "name": "Talyâh",
+        "cover": "/images/dresseur.png",
+        "number": "109",
+        "dustTotal": "13585",
+        "gold": "0",
+        "dust": "1980",
+        "ticketTower": "14",
+        "ticketSafari": "2"
+    }
+]

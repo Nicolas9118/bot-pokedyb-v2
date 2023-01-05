@@ -1,0 +1,362 @@
+[
+    {
+        "id": "pokemon1",
+        "name": "Bulbizarre",
+        "number": "#01",
+        "cover": "/images/bulbi.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon2",
+        "name": "Herbizarre",
+        "number": "#02",
+        "cover": "/images/herbi.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon3",
+        "name": "Florizarre",
+        "number": "#03",
+        "cover": "/images/flori.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon4",
+        "name": "Salamèche",
+        "number": "#04",
+        "cover": "/images/salameche.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon5",
+        "name": "Reptincel",
+        "number": "#05",
+        "cover": "/images/reptincel.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon6",
+        "name": "Dracaufeu",
+        "number": "#06",
+        "cover": "/images/dracaufeu.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon7",
+        "name": "Carapuce",
+        "number": "#07",
+        "cover": "/images/carapuce.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon8",
+        "name": "Carabaffe",
+        "number": "#08",
+        "cover": "/images/carabaffe.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon9",
+        "name": "Tortank",
+        "number": "#09",
+        "cover": "/images/tortank.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon10",
+        "name": "Chenipan",
+        "number": "#10",
+        "cover": "/images/chenipan.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon11",
+        "name": "Chrysacier",
+        "number": "#11",
+        "cover": "/images/chrysacier.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    },
+    {
+        "id": "pokemon12",
+        "name": "Papilusion",
+        "number": "#12",
+        "cover": "/images/papilusion.png",
+        "type": "plante",
+        "rarete": "10%",
+        "craft": "180",
+        "possession": [
+            "Talyah",
+            "Taz",
+            "Rokeez (2)",
+            "Naiiade",
+            "Sanic_des_mers",
+            "Grimmouzzz",
+            "Susu",
+            "HypnoZ",
+            "Anargyres", 
+            "Palmypède",
+            "Kira91",
+            "Silverlord",
+            "GroovyKitten48",
+            "Rainbow Unicorn",
+            "Nishi-Senpai"
+        ],
+        "manque": [
+            "Silverlod",
+            "GroovyKitten48"
+        ]
+    }
+]
