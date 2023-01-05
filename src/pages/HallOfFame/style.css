@@ -51,3 +51,10 @@
     font-weight: 700;
     margin-top: 20px;
 }
+
+/*  ----  Responsive SmartPhone  ----  */
+@media screen and (max-width: 767px) {
+    .galleryHallContainer {
+        top: 200px;
+    }
+}

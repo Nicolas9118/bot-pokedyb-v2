@@ -78,3 +78,10 @@
     border-radius: 35px;
     filter: grayscale(1);
 }
+
+/*  ----  Responsive SmartPhone  ----  */
+@media screen and (max-width: 767px) {
+    .galleryDresseur {
+        top: 200px;
+    }
+}

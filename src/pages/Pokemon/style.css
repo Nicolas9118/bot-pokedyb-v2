@@ -26,13 +26,13 @@
     flex-wrap: wrap;
     row-gap: 100px;
     column-gap: 30px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items:flex-start;
 }
 
 .pagePokemonPokedex .spritePokemon {
     position: fixed;
-    bottom: 100px;
+    bottom: 50px;
     left: 50%;
     transform: translate(-50%);
 }
@@ -48,12 +48,17 @@
     border-radius: 15px;
 }
 
+.infoContainer {
+    width: 100%;
+    min-height: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
 .infoPokemon {
-    position: fixed;
-    top: 25px;
-    left: 35px;
-    width: 450px;
-    height: 375px;
+    width: 30%;
+    min-height: 275px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -83,6 +88,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 25px;
 }
 
 .infoPokemon .cost .chance, 
@@ -96,15 +102,12 @@
 }
 
 .infoDresseur {
-    position: fixed;
-    top: 15px;
-    right: 35px;
-    width: 375px;
-    height: 425px;
+    width: 30%;
+    min-height: 275px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     font-size: 24px;
@@ -125,4 +128,27 @@
     height: 45%;
 }
 
+/*  ----  Responsive SmartPhone  ----  */
+@media screen and (max-width: 767px) {
+    .pagePokemonPokedex {
+        top: 200px;
+    }
+    .infoContainer {
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 50px;
+        margin-top: 15px;
 
+    }
+    .infoPokemon {
+        width: 100%;
+        min-height: 250px;
+    }
+    .infoDresseur {
+        width: 100%;
+    }
+    .spritePokemon {
+        height: 320px;
+        width: 320px;
+    }
+}

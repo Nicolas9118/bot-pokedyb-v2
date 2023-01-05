@@ -25,36 +25,37 @@ const Pokemon = () => {
             <div className="pagePokemonPokedex">
                 <img src={SpritePokedex} alt="" className="bgPagePokemon"/>
 
-                <div className="infoPokemon">
-                    <div className="description">
-                        <p> Pokedex N° {idData.number} </p>
-                        <h3> {idData.name} </h3>
-                        <p> {idData.type} </p>
-                    </div>
-                    <div className="cost">
-                        <div className="chance">
-                            <h4> Rareté : </h4>
-                            <p> {idData.rarete} </p>
+                <div className="infoContainer">
+                    <div className="infoPokemon">
+                        <div className="description">
+                            <p> Pokedex N° {idData.number} </p>
+                            <h3> {idData.name} </h3>
+                            <p> {idData.type} </p>
                         </div>
-                        <div className="craft">
-                            <h4> Craft : </h4>
-                            <p> {idData.craft} </p>
+                        <div className="cost">
+                            <div className="chance">
+                                <h4> Rareté : </h4>
+                                <p> {idData.rarete} </p>
+                            </div>
+                            <div className="craft">
+                                <h4> Craft : </h4>
+                                <p> {idData.craft} </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="infoDresseur">
+                        <div className="possession">
+                            <h4> Possédé par : </h4>
+                            <p> {idData.possession} </p>
+                        </div>
+                        <div className="miss">
+                            <h4> Recherché par : </h4>
+                            <p> {idData.manque} </p>
                         </div>
                     </div>
                 </div>
-
                 <img src={idData.cover} alt="" className="spritePokemon"/>
-
-                <div className="infoDresseur">
-                    <div className="possession">
-                        <h4> Possédé par : </h4>
-                        <p> {idData.possession} </p>
-                    </div>
-                    <div className="miss">
-                        <h4> Recherché par : </h4>
-                        <p> {idData.manque} </p>
-                    </div>
-                </div>
             </div>
         </div>
     )

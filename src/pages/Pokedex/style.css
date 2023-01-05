@@ -96,3 +96,10 @@
     align-items: center;
 }
 
+/*  ----  Responsive SmartPhone  ----  */
+@media screen and (max-width: 767px) {
+    .galleryPokedex {
+        top: 200px;
+    }
+}
+
