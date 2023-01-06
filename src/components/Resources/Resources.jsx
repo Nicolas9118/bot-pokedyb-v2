@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import { ResourcesContainer } from "./Resources.styled"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCoins, faTicket, faReceipt } from "@fortawesome/free-solid-svg-icons";
@@ -7,24 +7,24 @@ import { faEthereum } from "@fortawesome/free-brands-svg-icons"
 
 const Resources = () => {
     return (
-        <div className="resourcesContainer">
-            <div className="resources">
+        <ResourcesContainer>
+            <div>
                 <span> 1500 </span>
-                <span className="icon"> <FontAwesomeIcon icon={faCoins} /> </span>
+                <span> <FontAwesomeIcon icon={faCoins} /> </span>
             </div>
-            <div className="resources">
+            <div>
                 <span> 680 </span>
-                <span className="icon"> <FontAwesomeIcon icon={faEthereum} /> </span>
+                <span> <FontAwesomeIcon icon={faEthereum} /> </span>
             </div>
-            <div className="resources">
+            <div>
                 <span> 14 </span>
-                <span className="icon"> <FontAwesomeIcon icon={faTicket} /> </span>
+                <span> <FontAwesomeIcon icon={faTicket} /> </span>
             </div>
-            <div className="resources">
+            <div>
                 <span> 28 </span>
-                <span className="icon"> <FontAwesomeIcon icon={faReceipt} /> </span>
+                <span> <FontAwesomeIcon icon={faReceipt} /> </span>
             </div>
-        </div>
+        </ResourcesContainer>
     )
 }
 

@@ -1,10 +1,14 @@
-.resourcesContainer {
+import styled from "styled-components"
+
+export const ResourcesContainer = styled.div`
     position: fixed;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
+
     width: 33%;
-    min-height: 60px;
+    height: 60px;
+    
     background: rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -16,22 +20,18 @@
     align-items: center;
 
     font-size: 24px;
-}
 
-/*  ----  Responsive tablet  ----  */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .resourcesContainer {
+    /*  ----  Responsive tablet  ----  */
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
         width: 50%;
     }
-}
 
-/*  ----  Responsive SmartPhone  ----  */
-@media screen and (max-width: 767px) {
-    .resourcesContainer {
+    /*  ----  Responsive SmartPhone  ----  */
+    @media screen and (max-width: 767px) {
         flex-direction: column;
         width: auto;
         padding: 15px;
         font-size: 16px;
         transform: translateX(-35%);
-    }
-}
+    }   
+`

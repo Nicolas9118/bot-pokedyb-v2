@@ -1,14 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "./style.css";
+import { BgPokedex, SpritePokedex, LinkPokemon, SpritePokeball, SpritePokemon } from "./Pokedex.styled";
 
-import SpritePokedex from "../../assets/bg_pokedex.jpg"
+
 import BgPrairie from "../../assets/bg_prairie.jpg"
+import DessinPokedex from "../../assets/bg_pokedex.jpg"
 import Pokeball from "../../assets/pokeball.png"
 
-import Bag from "../../components/Bag/Bag";
-import Resources from "../../components/Resources/Resources";
 import Profil from "../../components/Profil/Profil";
+import Resources from "../../components/Resources/Resources";
+import Inventory from "../../components/Inventory/Inventory";
+import Gallery from "../../components/Gallery/Gallery"
 
 /* Récupérer les données de mon fichier json */ 
 import dataPokemon from '../../DataPokemon.json'
@@ -16,22 +17,24 @@ import dataPokemon from '../../DataPokemon.json'
 const Pokedex = () => {
     return (
         <div className="pokedex">
-            <img src={BgPrairie} alt="" className="bgPokemon"/>
+            <BgPokedex src={BgPrairie} alt=""/>
             <Profil />
             <Resources />
-            <Bag />
-            <div className="galleryPokedex">
-                <img src={SpritePokedex} alt="" className="spritePokedex"/>
+            <Inventory />
+
+            <Gallery>
+            <SpritePokedex src={DessinPokedex} alt=""/>
                 {dataPokemon.map((data) => {
                     return (
-                        <NavLink to={`/Pokemon/${data.id}`} className="pokemon"> 
-                            <img src={Pokeball} alt="" className="pokeball"/>
-                            <img src={data.cover} alt="" />
-                        </NavLink>
+                        <LinkPokemon to={`/Pokemon/${data.id}`}> 
+                            <SpritePokeball src={Pokeball} alt=""/>
+                            <SpritePokemon src={data.cover} alt="" />
+                        </LinkPokemon>
                         
                     );
                 })}
-            </div>
+            </Gallery>
+            
         </div>
     )
 }

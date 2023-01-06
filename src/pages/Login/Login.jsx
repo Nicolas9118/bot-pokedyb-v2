@@ -1,21 +1,24 @@
 import React from "react";
-import "./style.css";
-import BgLogin from "../../assets/bg_login3.png"
-import Welcome from "../../assets/Bienvenue.png"
+
+import { Background, Entry, LoginContainer, Welcome } from "./Login.styled"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
-import { NavLink } from "react-router-dom";
+
+
+import BgLogin from "../../assets/bg_login3.png"
+import WelcomePokemon from "../../assets/Bienvenue.png"
+
 
 const Login = () => {
     return (
-        <div className="login">
-            <img src={BgLogin} alt="" className="background"/>
-            <img src={Welcome} alt="" className="entry"/>
-            <NavLink to="/Home" className="welcome"> 
+        <LoginContainer>
+            <Background src={BgLogin} alt=" Fond de la page Login"/>
+            <Welcome src={WelcomePokemon} alt="Texte de bienvenue" />
+            <Entry to="/Home"> 
                 <FontAwesomeIcon icon={faDiscord} />
-            </NavLink>
-        </div>
+            </Entry>
+        </LoginContainer>
     )
 }
 

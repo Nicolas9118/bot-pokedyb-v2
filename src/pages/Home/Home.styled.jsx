@@ -1,4 +1,6 @@
-.home .bgHome {
+import styled from "styled-components"
+
+export const BgHome = styled.img`
     object-fit: cover;
     width: 100%;
     height: 100vh;
@@ -6,21 +8,9 @@
     top: 0;
     left: 0;
     z-index: -1;
-}
+`
 
-.buttonContainer {
-    position: fixed;
-    bottom: 50px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.team {
+export const Team = styled.div`
     position: fixed;
     top: 50%;
     left: 0;
@@ -37,12 +27,23 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-}
 
-.team div {
-    width: 13%;
-}
+    div {
+        width: 13%;
+    }
+    img {
+        width: 100%;
+    }
+`
 
-.team img {
+export const ButtonContainer = styled.div`
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
     width: 100%;
-}
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+`

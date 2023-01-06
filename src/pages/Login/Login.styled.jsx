@@ -1,4 +1,12 @@
-.login .background {
+import styled from "styled-components"
+import { Link } from "react-router-dom";
+
+export const LoginContainer = styled.div`
+    width: 100%;
+    height: 100vh;
+`
+
+export const Background = styled.img`
     object-fit: cover;
     width: 100%;
     height: 100vh;
@@ -6,16 +14,21 @@
     top: 0;
     left: 0;
     z-index: -1;
-}
+`
 
-.login .entry {
+export const Welcome = styled.img`
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
-}
 
-.login .welcome {
+    /*  ----  Responsive SmartPhone  ----  */
+    @media screen and (max-width: 767px) {
+        width: 90%;
+    }
+`
+
+export const Entry = styled(Link)`
     position: absolute;
     left: 50%;
     top: 50%;
@@ -34,17 +47,4 @@
     justify-content: center;
     color: blue;
     font-size: 32px;
-}
-
-/*  ----  Responsive SmartPhone  ----  */
-@media screen and (max-width: 767px) {
-    .login .entry {
-        width: 90%;
-    }
-
-    .login .welcome {
-        width: 110px;
-        height: 110px;
-        font-size: 24px;
-    }
-}
+`

@@ -1,24 +1,26 @@
 import React from "react";
-import "./style.css";
+
+import { ProfilContainer, AvatarContainer, SignOut } from "./Profil.styled"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSignOut } from "@fortawesome/free-solid-svg-icons";
 
 import Avatar from "../../assets/Poke_Dyb.png"
-import { NavLink } from "react-router-dom";
 
 const Profil = () => {
     return (
-        <div className="profilContainer">
-            <div className="avatarContainer">
+        <ProfilContainer>
+            <AvatarContainer>
                 <img src={Avatar} alt="" />
-                <NavLink to="/" className="signOut">
+                <SignOut to="/">
                     <FontAwesomeIcon icon={faSignOut} />
-                </NavLink>
-            </div>
+                </SignOut>
+            </AvatarContainer>
+
             <div> Nishiii </div>
             <div> 260 / 386 </div>
-        </div>
+            
+        </ProfilContainer>
     )
 }
 
