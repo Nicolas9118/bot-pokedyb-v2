@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 
 export const BgPokedex = styled.img`
     object-fit: cover;
@@ -9,17 +9,6 @@ export const BgPokedex = styled.img`
     top: 0;
     left: 0;
     z-index: -1;
-`
-
-export const SpritePokedex = styled.img`
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    border-radius: 15px;
 `
 
 export const LinkPokemon = styled(Link)`
