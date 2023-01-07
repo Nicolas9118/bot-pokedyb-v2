@@ -5,7 +5,7 @@ export const Action = styled.div`
     justify-content: center;
     align-items: center;
     padding: 16px 32px;
-
+    max-width: 250px;
 
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

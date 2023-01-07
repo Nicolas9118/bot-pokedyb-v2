@@ -13,7 +13,7 @@ import Dresseur from "../../assets/dresseur.png"
 import Profil from "../../components/Profil/Profil"
 import Resources from "../../components/Resources/Resources"
 import Inventory from "../../components/Inventory/Inventory"
-import Button from "../../components/Button/Button";
+import Button from "../../components/Button/Button"
 
 
 const Home = () => {

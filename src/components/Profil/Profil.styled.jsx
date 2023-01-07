@@ -5,6 +5,7 @@ export const ProfilContainer = styled.div`
     position: fixed;
     top: 20px;
     left: 20px;
+    z-index: 9;
     
     width: 80px;
     height: 80px;

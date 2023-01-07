@@ -5,6 +5,7 @@ export const ResourcesContainer = styled.div`
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 9;
 
     width: 33%;
     height: 60px;
