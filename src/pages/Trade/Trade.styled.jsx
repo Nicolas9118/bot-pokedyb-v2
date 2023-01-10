@@ -1,5 +1,5 @@
 import styled from "styled-components"
 
-export const SafariContainer = styled.div`
+export const TradeContainer = styled.div`
     
 `

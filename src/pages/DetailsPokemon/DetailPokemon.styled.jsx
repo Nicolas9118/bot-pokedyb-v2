@@ -1,6 +1,15 @@
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 
-export const BgPokedex = styled.img`
+export const DetailPokemonPage = styled.div`
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+`
+export const BgPokemon = styled.img`
     object-fit: cover;
     width: 100%;
     height: 100vh;
@@ -9,89 +18,58 @@ export const BgPokedex = styled.img`
     left: 0;
     z-index: -1;
 `
-
-export const InfoContainer = styled.div`
-    width: 100%;
-    height: 100%;
+export const PreviewNext = styled(Link)`
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(57,130,85,1), rgba(166,219,151,1));
+    color: #FFF;
+    font-size: 48px;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-
-    /*  ----  Responsive SmartPhone  ----  */
-/* @media screen and (max-width: 767px) {
-        flex-direction: column;
-        justify-content: center;
-        row-gap: 50px;
-        margin-top: 15px;
-    } */
-`
-
-export const InfoDetail = styled.div`
-    width: 45%;
-    height: 45%;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    font-size: 24px;
-    color: #FFF;
+    &:hover {
+        background: #FFF;
+        box-shadow: 2px 2px 10px rgba(57,130,85,1), -2px -2px 10px rgba(57,130,85,1);
+        color: rgba(57,130,85,1);
+    }
+`
+export const CardPokemonContainer = styled.div`
+    position: relative;
+    max-width: 600px;
+    width: 90%;
+    height: calc(100vh - 100px);
+    background: linear-gradient(rgba(57,130,85,0.7), rgba(166,219,151,0.7));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 32px;
+`
+export const Numero = styled.div`
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: #3c6a66;
+    font-size: 36px;
     font-weight: 700;
-
-    /*  ----  Responsive SmartPhone  ----  */
-    /* @media screen and (max-width: 767px) {
-        width: 100%;
-        min-height: 250px;
-    } */
+    text-shadow: 2px 2px 3px #FFF;
 `
-
-export const Description = styled.div`
-    width: 90%;
-    height: 55%;
-
-    h3 {
-        font-size: 32px;
-        margin: 30px 0;
-    }
-`
-
-export const Cost = styled.div`
-    width: 90%;
-    height: 35%;
+export const Exemplaire = styled.span`
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 24px;
+    font-weight: 600;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin-top: 25px;
+    color: #3c6a66;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px #FFF;
 
-    div {
-        width: 33%;
-        height: 35%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-`
-
-export const Possession = styled.div`
-    width: 100%;
-    height: 45%;
-
-    p {
-        font-size: 20px;
-        overflow: hidden;
-    }
-`
-
-export const SpritePokemon = styled.img`
-    position: fixed;
-    bottom: 50px;
-    left: 50%;
-    transform: translate(-50%);
-
-    /*  ----  Responsive SmartPhone  ----  */
-    /* @media screen and (max-width: 767px) {
-        height: 320px;
-        width: 320px;
-    } */
+        img {
+            width: 24px;
+            height: 24px;
+            margin-right: 5px;
+        }
 `
