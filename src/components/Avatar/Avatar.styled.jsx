@@ -7,7 +7,7 @@ export const AvatarContainer = styled.div`
   border-radius: 32px;
   position: fixed;
   top: 25px;
-  left: 25px;
+  right: 25px;
 `;
 export const AvatarProfil = styled.div`
   width: 150px;
