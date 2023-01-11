@@ -23,7 +23,6 @@ export const MenuNavigation = styled.div`
   transition: ${({ status }) =>
     status ? "transform 0.4s ease 0.2s" : "transform 0.4s ease 1.2s"};
 `;
-
 export const Pocket = styled(Link)`
   position: absolute;
   top: 50%;
