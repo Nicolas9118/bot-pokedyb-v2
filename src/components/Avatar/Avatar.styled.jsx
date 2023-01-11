@@ -1,20 +1,24 @@
 import styled from "styled-components";
 
 export const AvatarContainer = styled.div`
-  height: 200px;
-  width: 200px;
+  height: 155px;
+  width: 175px;
   border-radius: 32px;
   position: fixed;
   top: 25px;
   right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 5px;
 `;
 export const AvatarProfil = styled.div`
-  width: 150px;
-  height: 150px;
-  margin-left: 10px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  background: rgba(166, 219, 151, 0.7);
-  border: 5px solid rgba(57, 130, 85, 0.7);
+  background: #007f9a;
+  border: 5px solid rgba(255, 255, 255, 0.239);
   img {
     object-fit: cover;
     height: 100%;
@@ -23,13 +27,14 @@ export const AvatarProfil = styled.div`
   }
 `;
 export const Level = styled.div`
+  margin: 5px;
   color: #fff;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   position: absolute;
-  top: 62%;
-  left: 5px;
-  transform: translateY(-50%);
+  top: 52%;
+  left: 38%;
+  transform: translate(-50%, -50%);
   text-shadow: 2px 2px 3px #000;
 `;
 export const LevelBar = styled.div`
@@ -68,5 +73,5 @@ export const AvatarName = styled.div`
   font-weight: 700;
   font-size: 16px;
   text-shadow: 2px 2px 3px #000;
-  margin: 2px 0 0 15px;
+  margin: 0 15px 0 0;
 `;

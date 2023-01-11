@@ -8,8 +8,8 @@ export const MenuContainer = styled.div`
 `;
 export const MenuNavigation = styled.div`
   background: #9184ff;
-  width: 460px;
-  height: 460px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: 40px solid rgba(255, 255, 255, 0.239);
   position: absolute;
@@ -30,13 +30,13 @@ export const Pocket = styled(Link)`
   right: 50%;
   transform: ${({ status }) =>
     status ? "translate(50%, -50%) scale(1)" : "translate(50%, -50%) scale(0)"};
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 700;
   text-shadow: #000 1px 0 10px;
   border-radius: 16px;
@@ -148,7 +148,7 @@ export const Pocket = styled(Link)`
       status ? "transform 0.2s ease 1.5s" : "all 0.2s ease"};
     p {
       transform: rotate(25deg);
-      font-size: 20px;
+      font-size: 14px;
     }
     &:hover {
       color: rgba(255, 134, 77, 1);
@@ -160,8 +160,8 @@ export const BtnMenu = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background: rgb(78, 76, 221);
   border-radius: 50%;
   border: 2px solid #fff;
