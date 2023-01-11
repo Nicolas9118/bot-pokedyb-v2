@@ -17,7 +17,8 @@ export const AvatarProfil = styled.div`
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #007f9a;
+  /* background: #007f9a; */
+  background: #9184ff;
   border: 5px solid rgba(255, 255, 255, 0.239);
   img {
     object-fit: cover;
@@ -64,7 +65,8 @@ export const LevelBarFilling = styled.div`
   height: 100%;
   /* width: ${({ level }) => {}}; */
   width: 50%;
-  background: #007f9a;
+  /* background: #007f9a; */
+  background: #9184ff;
   border-radius: 10px;
   z-index: 1;
 `;
