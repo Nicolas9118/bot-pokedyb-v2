@@ -27,13 +27,11 @@ export const MenuNavigation = styled.div`
 export const Pocket = styled(Link)`
   position: absolute;
   top: 50%;
-  left: 50%;
+  right: 50%;
   transform: ${({ status }) =>
-    status
-      ? "translate(-50%, -50%) scale(1)"
-      : "translate(-50%, -50%) scale(0)"};
-  width: 90px;
-  height: 90px;
+    status ? "translate(50%, -50%) scale(1)" : "translate(50%, -50%) scale(0)"};
+  width: 75px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,76 +44,96 @@ export const Pocket = styled(Link)`
   backdrop-filter: blur(6.1px);
   -webkit-backdrop-filter: blur(6.1px);
   overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 1);
 
-  /* Pourquoi la position top fonctionne mais pas right  */
   &:nth-child(1) {
     background: rgba(253, 61, 56, 0.7);
     top: ${({ status }) => (status ? "0%" : "50%")};
     right: 50%;
     transform: ${({ status }) =>
       status
-        ? "translate(-50%, -50%) scale(1)"
-        : "translate(-50%, -50%) scale(0)"};
+        ? "translate(50%, -50%) scale(1)"
+        : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.5s" : "all 0.2s ease 1s"};
+      status ? "transform 0.2s ease 0.5s" : "all 0.2s ease 1s"};
     p {
       transform: rotate(-25deg);
+    }
+    &:hover {
+      color: rgba(253, 61, 56, 1);
+      background: rgba(255, 255, 255, 0.7);
     }
   }
   &:nth-child(2) {
     background: rgba(254, 168, 66, 0.7);
-    top: ${({ status }) => (status ? "20%" : "50%")};
-    right: ${({ status }) => (status ? "37.5%" : "50%")};
+    top: ${({ status }) => (status ? "9.5%" : "50%")};
+    right: ${({ status }) => (status ? "23%" : "50%")};
     transform: ${({ status }) =>
       status
-        ? "translate(-50%, -50%) scale(1)"
-        : "translate(-50%, -50%) scale(0)"};
+        ? "translate(50%, -50%) scale(1)"
+        : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.7s" : "all 0.2s ease 0.8s"};
+      status ? "transform 0.2s ease 0.7s" : "all 0.2s ease 0.8s"};
     p {
       transform: rotate(-20deg);
+    }
+    &:hover {
+      color: rgba(254, 168, 66, 1);
+      background: rgba(255, 255, 255, 0.7);
     }
   }
   &:nth-child(3) {
     background: rgba(131, 208, 103, 0.7);
-    top: ${({ status }) => (status ? "40%" : "50%")};
-    right: ${({ status }) => (status ? "12.5%" : "50%")};
+    top: ${({ status }) => (status ? "35%" : "50%")};
+    right: ${({ status }) => (status ? "3.5%" : "50%")};
     transform: ${({ status }) =>
       status
-        ? "translate(-50%, -50%) scale(1)"
-        : "translate(-50%, -50%) scale(0)"};
+        ? "translate(50%, -50%) scale(1)"
+        : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.9s" : "all 0.2s ease 0.6s"};
+      status ? "transform 0.2s ease 0.9s" : "all 0.2s ease 0.6s"};
     p {
       transform: rotate(-15deg);
+    }
+    &:hover {
+      color: rgba(131, 208, 103, 1);
+      background: rgba(255, 255, 255, 0.7);
     }
   }
   &:nth-child(4) {
     background: rgba(52, 183, 248, 0.7);
-    top: ${({ status }) => (status ? "60%" : "50%")};
-    right: ${({ status }) => (status ? "12.5%" : "50%")};
+    top: ${({ status }) => (status ? "65%" : "50%")};
+    right: ${({ status }) => (status ? "3.5%" : "50%")};
     transform: ${({ status }) =>
       status
-        ? "translate(-50%, -50%) scale(1)"
-        : "translate(-50%, -50%) scale(0)"};
+        ? "translate(50%, -50%) scale(1)"
+        : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.1s" : "all 0.2s ease 0.4s"};
+      status ? "transform 0.2s ease 1.1s" : "all 0.2s ease 0.4s"};
     p {
       transform: rotate(15deg);
+    }
+    &:hover {
+      color: rgba(52, 183, 248, 1);
+      background: rgba(255, 255, 255, 0.7);
     }
   }
   &:nth-child(5) {
     background: rgba(159, 103, 246, 0.7);
-    top: ${({ status }) => (status ? "80%" : "50%")};
-    right: ${({ status }) => (status ? "37.5%" : "50%")};
+    top: ${({ status }) => (status ? "90.5%" : "50%")};
+    right: ${({ status }) => (status ? "23%" : "50%")};
     transform: ${({ status }) =>
       status
-        ? "translate(-50%, -50%) scale(1)"
-        : "translate(-50%, -50%) scale(0)"};
+        ? "translate(50%, -50%) scale(1)"
+        : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.3s" : "all 0.2s ease 0.2s"};
+      status ? "transform 0.2s ease 1.3s" : "all 0.2s ease 0.2s"};
     p {
       transform: rotate(20deg);
+    }
+    &:hover {
+      color: rgba(159, 103, 246, 1);
+      background: rgba(255, 255, 255, 0.7);
     }
   }
   &:nth-child(6) {
@@ -124,12 +142,17 @@ export const Pocket = styled(Link)`
     right: 50%;
     transform: ${({ status }) =>
       status
-        ? "translate(-50%, -50%) scale(1)"
-        : "translate(-50%, -50%) scale(0)"};
+        ? "translate(50%, -50%) scale(1)"
+        : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.5s" : "all 0.2s ease"};
+      status ? "transform 0.2s ease 1.5s" : "all 0.2s ease"};
     p {
       transform: rotate(25deg);
+      font-size: 20px;
+    }
+    &:hover {
+      color: rgba(255, 134, 77, 1);
+      background: rgba(255, 255, 255, 0.7);
     }
   }
 `;
@@ -146,6 +169,29 @@ export const BtnMenu = styled.div`
   z-index: 9;
   outline: none;
   cursor: pointer;
+
+  &:hover {
+    box-shadow: 2px 2px 10px rgba(253, 61, 56, 1);
+    animation: shake 1.5s infinite ease;
+
+    @keyframes shake {
+      0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(15deg);
+      }
+      50% {
+        transform: rotate(-15deg);
+      }
+      75% {
+        transform: rotate(15deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+  }
 
   img {
     object-fit: cover;
