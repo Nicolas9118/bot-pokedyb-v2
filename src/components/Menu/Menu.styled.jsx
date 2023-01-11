@@ -7,7 +7,7 @@ export const MenuContainer = styled.div`
   left: 0px;
 `;
 export const MenuNavigation = styled.div`
-  background: #db5656;
+  background: #9184ff;
   width: 460px;
   height: 460px;
   border-radius: 50%;
@@ -21,7 +21,7 @@ export const MenuNavigation = styled.div`
       ? "translate(-50%, -50%) scale(1)"
       : "translate(-50%, -50%) scale(0)"};
   transition: ${({ status }) =>
-    status ? "transform 0.4s ease 0.4s" : "transform 0.4s ease 0.5s"};
+    status ? "transform 0.4s ease 0.2s" : "transform 0.4s ease 1.2s"};
 `;
 
 export const Pocket = styled(Link)`
@@ -47,11 +47,7 @@ export const Pocket = styled(Link)`
   -webkit-backdrop-filter: blur(6.1px);
   overflow: hidden;
 
-  p {
-    transform: rotate(-25deg);
-  }
-
-  /* Pourquoi l'animation retour ne fontionne pas correctement et pourquoi la position top fonctionne mais pas right  */
+  /* Pourquoi la position top fonctionne mais pas right  */
   &:nth-child(1) {
     background: rgba(253, 61, 56, 0.7);
     top: ${({ status }) => (status ? "0%" : "50%")};
@@ -60,10 +56,11 @@ export const Pocket = styled(Link)`
       status
         ? "translate(-50%, -50%) scale(1)"
         : "translate(-50%, -50%) scale(0)"};
-    /* transition: ${({ status }) =>
-      status ? "all 0.2s ease 1s" : "all 0.2s ease 1.3s"}; */
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.3s" : "all 0.2s ease 1s"};
+      status ? "all 0.2s ease 0.5s" : "all 0.2s ease 1s"};
+    p {
+      transform: rotate(-25deg);
+    }
   }
   &:nth-child(2) {
     background: rgba(254, 168, 66, 0.7);
@@ -73,10 +70,11 @@ export const Pocket = styled(Link)`
       status
         ? "translate(-50%, -50%) scale(1)"
         : "translate(-50%, -50%) scale(0)"};
-    /* transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.8s" : "all 0.2s ease 1.5s"}; */
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.5s" : "all 0.2s ease 0.8s"};
+      status ? "all 0.2s ease 0.7s" : "all 0.2s ease 0.8s"};
+    p {
+      transform: rotate(-20deg);
+    }
   }
   &:nth-child(3) {
     background: rgba(131, 208, 103, 0.7);
@@ -86,10 +84,11 @@ export const Pocket = styled(Link)`
       status
         ? "translate(-50%, -50%) scale(1)"
         : "translate(-50%, -50%) scale(0)"};
-    /* transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.6s" : "all 0.2s ease 1.7s"}; */
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.7s" : "all 0.2s ease 0.6s"};
+      status ? "all 0.2s ease 0.9s" : "all 0.2s ease 0.6s"};
+    p {
+      transform: rotate(-15deg);
+    }
   }
   &:nth-child(4) {
     background: rgba(52, 183, 248, 0.7);
@@ -99,10 +98,11 @@ export const Pocket = styled(Link)`
       status
         ? "translate(-50%, -50%) scale(1)"
         : "translate(-50%, -50%) scale(0)"};
-    /* transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.4s" : "all 0.2s ease 1.9s"}; */
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.9s" : "all 0.2s ease 0.4s"};
+      status ? "all 0.2s ease 1.1s" : "all 0.2s ease 0.4s"};
+    p {
+      transform: rotate(15deg);
+    }
   }
   &:nth-child(5) {
     background: rgba(159, 103, 246, 0.7);
@@ -113,9 +113,10 @@ export const Pocket = styled(Link)`
         ? "translate(-50%, -50%) scale(1)"
         : "translate(-50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 2.1s" : "all 0.2s ease 0.2s"};
-    /* transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.2s" : "all 0.2s ease 2.1s"}; */
+      status ? "all 0.2s ease 1.3s" : "all 0.2s ease 0.2s"};
+    p {
+      transform: rotate(20deg);
+    }
   }
   &:nth-child(6) {
     background: rgba(255, 134, 77, 0.7);
@@ -126,9 +127,10 @@ export const Pocket = styled(Link)`
         ? "translate(-50%, -50%) scale(1)"
         : "translate(-50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 2.3s" : "all 0.2s ease"};
-    /* transition: ${({ status }) =>
-      status ? "all 0.2s ease " : "all 0.2s ease 2.3s"}; */
+      status ? "all 0.2s ease 1.5s" : "all 0.2s ease"};
+    p {
+      transform: rotate(25deg);
+    }
   }
 `;
 export const BtnMenu = styled.div`

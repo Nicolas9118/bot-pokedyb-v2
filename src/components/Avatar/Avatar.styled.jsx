@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const AvatarContainer = styled.div`
   height: 200px;
   width: 200px;
-  /* background: rgba(255,255,255,0.5); */
   border-radius: 32px;
   position: fixed;
   top: 25px;
@@ -52,6 +51,7 @@ export const LevelBarEffect = styled.div`
   border-radius: 5px;
   z-index: 1;
 `;
+// Comment faire en sorte que la "width" LevelBarFilling change selon la variable  (remplisage de la LevelBar selon le niveau du joueur) ?
 export const LevelBarFilling = styled.div`
   position: absolute;
   top: 0;
