@@ -1,7 +1,6 @@
 /*  ----  Import des depencies  ----  */
 import React from "react";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 /*  ----  Import du style  ----  */
 import { BtnMenu, MenuNavigation, MenuContainer, Pocket } from "./Menu.styled";
 /*  ----  Import des images  ----  */
