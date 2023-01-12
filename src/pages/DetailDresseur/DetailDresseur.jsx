@@ -1,12 +1,14 @@
 import React from "react";
-import { DetailDresseurContainer } from "./DetailDresseur.styled";
+import { BgDresseur } from "./DetailDresseur.styled";
+
+import BgDresseurPage from "../../assets/Bg_forest.jpg";
 
 const DetailDresseur = () => {
-    return (
-        <DetailDresseurContainer>
-            ceci est la page du safari
-        </DetailDresseurContainer>
-    )
-}
+  return (
+    <div>
+      <BgDresseur src={BgDresseurPage} alt="" />
+    </div>
+  );
+};
 
 export default DetailDresseur;
