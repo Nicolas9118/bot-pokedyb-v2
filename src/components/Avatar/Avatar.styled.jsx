@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colorsMenu, colorsPlayers } from "../../colors";
 
 export const AvatarContainer = styled.div`
   height: 155px;
@@ -13,11 +14,11 @@ export const AvatarContainer = styled.div`
   align-items: flex-end;
   margin-bottom: 5px;
 `;
-export const AvatarProfil = styled.div`
+export const AvatarProfile = styled.div`
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #007f9a;
+  background: ${colorsMenu.bgPrimaire};
   border: 5px solid rgba(255, 255, 255, 0.239);
   img {
     object-fit: cover;
@@ -28,7 +29,7 @@ export const AvatarProfil = styled.div`
 `;
 export const Level = styled.div`
   margin: 5px;
-  color: #fff;
+  color: ${colorsMenu.light};
   font-weight: 700;
   font-size: 28px;
   position: absolute;
@@ -40,11 +41,11 @@ export const Level = styled.div`
 export const LevelBar = styled.div`
   position: relative;
   width: 100%;
-  height: 20px;
+  height: 15px;
   background: transparent;
   border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 1);
-  box-shadow: 0 2px rgba(0, 0, 0, 1);
+  border: 1px solid ${colorsMenu.dark};
+  box-shadow: 0 2px ${colorsMenu.dark};
 `;
 export const LevelBarEffect = styled.div`
   position: absolute;
@@ -62,9 +63,8 @@ export const LevelBarFilling = styled.div`
   top: 0;
   left: 0;
   height: 100%;
-  /* width: ${({ level }) => {}}; */
-  width: 50%;
-  background: #007f9a;
+  width: ${({ level }) => `${level}%`};
+  background: ${colorsPlayers.primaire};
   border-radius: 10px;
   z-index: 1;
 `;

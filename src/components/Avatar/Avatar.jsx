@@ -3,37 +3,37 @@ import { useState } from "react";
 import {
   AvatarContainer,
   AvatarName,
-  AvatarProfil,
+  AvatarProfile,
   Level,
   LevelBar,
   LevelBarEffect,
   LevelBarFilling,
 } from "./Avatar.styled";
 
-import Permis from "../Permis/Permis";
+import License from "../License/License";
 import AvatarFace from "../../assets/Poke_Dyb.png";
 
 const Avatar = () => {
-  const [currentToggle, setCurrentToggle] = useState(false);
-  const handleChangeToggle = () => {
-    setCurrentToggle(!currentToggle);
+  const [currentToggleLicenseTrainer, setCurrentToggleLicenseTrainer] =
+    useState(false);
+  const handleChangeToggleLicenseTrainer = () => {
+    setCurrentToggleLicenseTrainer(!currentToggleLicenseTrainer);
   };
-  console.log(currentToggle);
   return (
     <>
       <AvatarContainer>
-        <AvatarProfil onClick={handleChangeToggle}>
+        <AvatarProfile onClick={handleChangeToggleLicenseTrainer}>
           <img src={AvatarFace} alt="" />
-        </AvatarProfil>
+        </AvatarProfile>
         <Level> 43 </Level>
         <LevelBar>
           <LevelBarEffect />
-          <LevelBarFilling />
+          <LevelBarFilling level="43" />
         </LevelBar>
         <AvatarName> Nishi-Senpai </AvatarName>
       </AvatarContainer>
 
-      <Permis status={currentToggle} />
+      <License status={currentToggleLicenseTrainer} />
     </>
   );
 };

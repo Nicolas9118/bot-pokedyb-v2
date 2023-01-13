@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { colorsMenu, colorsPlayers } from "../../colors";
 
-export const PermisContainer = styled.div`
+export const LicenseContainer = styled.div`
   position: fixed;
   top: 25px;
   right: 225px;
@@ -8,8 +9,8 @@ export const PermisContainer = styled.div`
   max-width: 500px;
   width: 90%;
   background: linear-gradient(
-    rgba(255, 241, 202, 255),
-    rgba(255, 255, 255, 255)
+    ${colorsPlayers.bgPrimaire},
+    ${colorsPlayers.bgSecondary}
   );
   border-radius: 32px;
   transform: scale(${({ status }) => (status ? "1" : "0")});
@@ -21,19 +22,19 @@ export const PermisContainer = styled.div`
   align-items: center;
   justify-content: space-around;
 `;
-export const PresentationPermis = styled.div`
+export const PresentationLicense = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 `;
-export const NamePermis = styled.div`
-  color: #f8c83a;
+export const NameLicense = styled.div`
+  color: ${colorsPlayers.primaire};
   font-size: 32px;
   font-weight: 700;
-  text-shadow: #000 1px 0 10px;
+  text-shadow: ${colorsMenu.dark} 1px 0 10px;
   margin: 60px 0 0 20px;
 `;
-export const SpritePermis = styled.img`
-  filter: drop-shadow(15px 5px 7px #f8c83a);
+export const SpriteLicense = styled.img`
+  filter: drop-shadow(15px 5px 7px ${colorsPlayers.primaire});
   margin: 0 60px 0 60px;
 `;

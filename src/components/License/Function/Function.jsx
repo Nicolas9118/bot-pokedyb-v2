@@ -10,28 +10,19 @@ const Function = () => {
   return (
     <FunctionContainer>
       <FunctionContain>
-        <BtnFunction></BtnFunction>
+        <BtnFunction> Soon </BtnFunction>
         <InfoFunction> Coming Soon </InfoFunction>
-        <p>
-          {" "}
-          Choisir <br /> Son Dresseur{" "}
-        </p>
+        <p> Choisir son Dresseur </p>
       </FunctionContain>
       <FunctionContain>
-        <BtnFunction></BtnFunction>
+        <BtnFunction> Soon </BtnFunction>
         <InfoFunction> Coming Soon </InfoFunction>
-        <p>
-          {" "}
-          Choisir <br /> Son Copain{" "}
-        </p>
+        <p> Choisir son Copain </p>
       </FunctionContain>
       <FunctionContain>
-        <BtnFunction></BtnFunction>
+        <BtnFunction> Soon </BtnFunction>
         <InfoFunction> Coming Soon </InfoFunction>
-        <p>
-          {" "}
-          Voir <br /> Ses Badges{" "}
-        </p>
+        <p> Voir ses Badges </p>
       </FunctionContain>
     </FunctionContainer>
   );
