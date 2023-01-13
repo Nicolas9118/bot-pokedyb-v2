@@ -105,6 +105,7 @@ export const Pocket = styled(Link)`
     &:hover {
       color: ${colorsPokemonDark.primaire};
       background: ${colorsMenu.light};
+      transition: "hover 0s ease";
     }
   }
   &:nth-child(3) {
