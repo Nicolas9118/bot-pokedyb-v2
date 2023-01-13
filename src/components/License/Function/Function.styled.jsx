@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colorsMenu, colorsPlayers, colorsPokemonGrass } from "../../../colors";
 
 export const FunctionContainer = styled.div`
   width: 100%;
@@ -15,10 +16,12 @@ export const FunctionContain = styled.div`
   align-items: center;
 
   p {
-    color: #4c7379;
+    color: ${colorsPokemonGrass.primaire};
+    font-weight: 500;
     text-align: center;
   }
 `;
+//  Bulle voué a disparaître quand la feature sera prête
 export const InfoFunction = styled.span`
   position: absolute;
   top: 0px;
@@ -27,10 +30,10 @@ export const InfoFunction = styled.span`
   padding: 8px 16px;
   border-radius: 10px;
   background: rgba(80, 80, 80, 0.4);
-  color: #f8c83a;
+  color: ${colorsPlayers.primaire};
   font-weight: 600;
   font-size: 14px;
-  text-shadow: #000 1px 0 10px;
+  text-shadow: ${colorsMenu.dark} 1px 0 10px;
   transform: scale(0);
   transition: transform 0.5s ease;
 `;
@@ -39,10 +42,14 @@ export const BtnFunction = styled.div`
   height: 48px;
   border-radius: 50%;
   background: linear-gradient(
-    105deg,
-    rgba(167, 210, 156, 255),
-    rgba(51, 206, 164, 255)
+    175deg,
+    ${colorsMenu.btnPrimaire},
+    ${colorsMenu.btnSecondary}
   );
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &:hover {
     ~ span {

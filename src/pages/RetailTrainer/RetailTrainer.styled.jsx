@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BgDresseur = styled.img`
+export const BgTrainer = styled.img`
   object-fit: cover;
   width: 100%;
   height: 100vh;
