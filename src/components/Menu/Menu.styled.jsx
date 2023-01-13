@@ -80,7 +80,7 @@ export const Pocket = styled(Link)`
         ? "translate(50%, -50%) scale(1)"
         : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.5s" : "all 0.2s ease 1s"};
+      status ? "transform 0.2s ease 0.5s" : "all 0.2s ease 1s"};
     p {
       transform: rotate(-25deg);
     }
@@ -98,7 +98,7 @@ export const Pocket = styled(Link)`
         ? "translate(50%, -50%) scale(1)"
         : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.7s" : "all 0.2s ease 0.8s"};
+      status ? "transform 0.2s ease 0.7s" : "all 0.2s ease 0.8s"};
     p {
       transform: rotate(-20deg);
     }
@@ -116,7 +116,7 @@ export const Pocket = styled(Link)`
         ? "translate(50%, -50%) scale(1)"
         : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 0.9s" : "all 0.2s ease 0.6s"};
+      status ? "transform 0.2s ease 0.9s" : "all 0.2s ease 0.6s"};
     p {
       transform: rotate(-15deg);
     }
@@ -134,7 +134,7 @@ export const Pocket = styled(Link)`
         ? "translate(50%, -50%) scale(1)"
         : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.1s" : "all 0.2s ease 0.4s"};
+      status ? "transform 0.2s ease 1.1s" : "all 0.2s ease 0.4s"};
     p {
       transform: rotate(15deg);
     }
@@ -152,7 +152,7 @@ export const Pocket = styled(Link)`
         ? "translate(50%, -50%) scale(1)"
         : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.3s" : "all 0.2s ease 0.2s"};
+      status ? "transform 0.2s ease 1.3s" : "all 0.2s ease 0.2s"};
     p {
       transform: rotate(20deg);
     }
@@ -170,7 +170,7 @@ export const Pocket = styled(Link)`
         ? "translate(50%, -50%) scale(1)"
         : "translate(50%, -50%) scale(0)"};
     transition: ${({ status }) =>
-      status ? "all 0.2s ease 1.5s" : "all 0.2s ease"};
+      status ? "transform 0.2s ease 1.5s" : "all 0.2s ease"};
     p {
       transform: rotate(25deg);
       font-size: 14px;

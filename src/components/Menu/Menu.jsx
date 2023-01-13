@@ -14,13 +14,13 @@ const Menu = () => {
   return (
     <MenuContainer>
       <MenuNavigation status={currentToggle}>
-        <Pocket to="/Invoc" status={currentToggle}>
+        <Pocket to="/Summon" status={currentToggle}>
           <p> Invoc </p>
         </Pocket>
-        <Pocket to="/Tour" status={currentToggle}>
+        <Pocket to="/Tower" status={currentToggle}>
           <p> Tour </p>
         </Pocket>
-        <Pocket to="/Tour" status={currentToggle}>
+        <Pocket to="/Safari" status={currentToggle}>
           <p> Safari</p>
         </Pocket>
         <Pocket to="/Trade" status={currentToggle}>
