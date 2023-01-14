@@ -11,11 +11,13 @@ import HallOfFame from "../pages/HallOfFame/HallOfFame";
 import Dresseur from "../pages/RetailTrainer/RetailTrainer";
 import Pokedex from "../pages/Pokedex/Pokedex";
 import Pokemon from "../pages/RetailPokemon/RetailPokemon";
+import Menu from "../components/Menu/Menu";
 
 function Adresse() {
   return (
     <BrowserRouter>
       {/* <Layout> */}
+      <Menu />
       <Routes>
         <Route exact path="/" element={<Login />} />
         <Route exact path="/Home" element={<Home />} />

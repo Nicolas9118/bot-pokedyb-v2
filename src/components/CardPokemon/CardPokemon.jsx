@@ -12,7 +12,9 @@ import {
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHammer, faRecycle } from "@fortawesome/free-solid-svg-icons";
-import { faEthereum } from "@fortawesome/free-brands-svg-icons";
+// import { faEthereum } from "@fortawesome/free-brands-svg-icons";
+
+import Dust from "../../assets/optimized-dust.svg";
 
 import InfoPossession from "./InfoPossession/InfoPossesion";
 
@@ -49,7 +51,8 @@ const CardPokemonContain = () => {
         <SeparateInfoCost />
         <InfoCostPokemon>
           {" "}
-          {idData.craft} <FontAwesomeIcon icon={faEthereum} />{" "}
+          {idData.craft} {/*<FontAwesomeIcon icon={faEthereum} />{" "} */}
+          <img src={Dust} alt="" width="32" />
         </InfoCostPokemon>
       </CostCardPokemonContainer>
 
