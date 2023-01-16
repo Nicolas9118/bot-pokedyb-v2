@@ -6,7 +6,7 @@ export const LicenseContainer = styled.div`
   top: 180px;
   left: 25px;
   bottom: 25px;
-  max-width: 500px;
+  max-width: 400px;
   width: 90%;
   background: linear-gradient(
     ${colorsPlayers.bgPrimaire},
@@ -29,13 +29,13 @@ export const PresentationLicense = styled.div`
 `;
 export const NameLicense = styled.div`
   color: ${colorsPlayers.primaire};
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   text-shadow: ${colorsMenu.dark} 1px 0 10px;
   margin: 60px 0 0 0;
 `;
 export const SpriteLicense = styled.img`
   filter: drop-shadow(15px 5px 7px ${colorsPlayers.primaire});
-  margin: 0 60px 0 0;
+  margin: 0 30px 0 0;
   height: 200px;
 `;
